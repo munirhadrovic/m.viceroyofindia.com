@@ -1109,6 +1109,7 @@ font-weight: bold;
     background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 0%,#aa363f 36%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#aa363f',GradientType=0 ); /* IE6-9 */
     border-bottom-color:#aa363f ;
+    border-top-color:#e86c57;
 }
 .ui-bar-b {
 	border-width: 1px;
@@ -1481,8 +1482,11 @@ div.ui-mobile-viewport {
 }
 .ui-header .ui-title,
 .ui-footer .ui-title {
-	font-size: 1em;
-	min-height: 1.1em;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration:none;
+
+    min-height: 1.1em;
 	text-align: center;
 	display: block;
 	margin: 0 30%;
